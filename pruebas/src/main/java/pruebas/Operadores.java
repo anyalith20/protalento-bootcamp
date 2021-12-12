@@ -14,10 +14,17 @@ public class Operadores {
 		int res = edad1 + edad2;
 		System.out.println("La suma de edad + edad2 es ="+res);
 		System.out.println(res);
-		
+		System.out.println("-------------------------------------------");
 		
 		String nombre = "Carlos";
 		String apellido = "Lopez";
+		
+		double alto = 175.5 ;
+		float  ancho = 205.7F;
+		
+		System.out.println("-------------------------------------------");
+		
+		boolean resAltoAncho = alto <ancho;
 		
 
 		
